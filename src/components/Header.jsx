@@ -8,7 +8,7 @@ const Header = () => {
             <Container>
                 <IconButton aria-label="menu" disabled>
                     <QrCodeIcon fontSize="large" sx={{ mr: 2 }} />
-                    <Typography variant="h5" color="initial">
+                    <Typography variant="h5" color={"black"}>
                         QR Code Generator
                     </Typography>
                 </IconButton>
