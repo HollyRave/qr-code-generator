@@ -1,6 +1,5 @@
-import './App.css';
-import Header from './components/Header';
 import { createTheme, colors, ThemeProvider } from '@mui/material';
+import Layout from './components/layout/Layout';
 
 const customTheme = createTheme({
   palette: {
@@ -15,9 +14,9 @@ function App() {
   return (
     <ThemeProvider theme={customTheme}>
       <div className="App">
-        <Header />
+        <Layout />
       </div>
-    </ThemeProvider>
+    </ThemeProvider >
   );
 }
 

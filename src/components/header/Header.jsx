@@ -4,7 +4,7 @@ import QrCodeIcon from '@mui/icons-material/QrCode';
 
 const Header = () => {
     return (
-        <AppBar>
+        <AppBar position="static">
             <Container>
                 <IconButton aria-label="menu" disabled>
                     <QrCodeIcon fontSize="large" sx={{ mr: 2 }} />
